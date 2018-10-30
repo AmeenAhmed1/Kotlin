@@ -27,4 +27,5 @@ fun main(args: Array<String>) {
     //Also we can convert from any data type to string
     var convertToString:String = float.toString()
     println(convertToString) //will print 12.42
+
 }
