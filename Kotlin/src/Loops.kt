@@ -48,7 +48,7 @@ fun main(args: Array<String>) {
 
     //Here when i became 3 it will break only the all loops in the label
     label@ for(i in 1..20){
-        
+
         for(y in 1..3){
             if(i == 3)
 

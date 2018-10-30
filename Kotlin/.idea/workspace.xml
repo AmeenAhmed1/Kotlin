@@ -4,7 +4,9 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2851b4ea-86d2-472c-afdd-10ff27d253a9" name="Default" comment="" />
+    <list default="true" id="2851b4ea-86d2-472c-afdd-10ff27d253a9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Loops.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loops.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Loops.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Loops.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Loops.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strings.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Strings.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -53,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/IfStatement.kt" />
         <option value="$PROJECT_DIR$/src/When.kt" />
         <option value="$PROJECT_DIR$/src/Loops.kt" />
+        <option value="$PROJECT_DIR$/src/Strings.kt" />
       </list>
     </option>
   </component>
@@ -105,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LoopsKt">
+  <component name="RunManager" selected="Kotlin.StringsKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -124,16 +139,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="ConvertDataTypesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ConvertDataTypesKt" />
-      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="Example1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
@@ -163,6 +168,16 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="LoopsKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="StringsKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="WhenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -198,19 +213,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.ConvertDataTypesKt" />
       <item itemvalue="Kotlin.Example1Kt" />
       <item itemvalue="Kotlin.IfStatementKt" />
       <item itemvalue="Kotlin.WhenKt" />
       <item itemvalue="Kotlin.LoopsKt" />
+      <item itemvalue="Kotlin.StringsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StringsKt" />
         <item itemvalue="Kotlin.LoopsKt" />
         <item itemvalue="Kotlin.WhenKt" />
         <item itemvalue="Kotlin.IfStatementKt" />
         <item itemvalue="Kotlin.Example1Kt" />
-        <item itemvalue="Kotlin.ConvertDataTypesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -236,11 +251,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6013072" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32026145" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.44117647" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4248366" />
@@ -467,8 +482,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Loops.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
