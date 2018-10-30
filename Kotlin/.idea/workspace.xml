@@ -47,11 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IfStatement.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IfStatement.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IfStatement.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="When.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/When.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -95,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/Example1.kt" />
         <option value="$PROJECT_DIR$/src/IfStatment.kt" />
         <option value="$PROJECT_DIR$/src/IfStatement.kt" />
+        <option value="$PROJECT_DIR$/src/When.kt" />
       </list>
     </option>
   </component>
@@ -147,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.IfStatementKt">
+  <component name="RunManager" selected="Kotlin.WhenKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -207,14 +220,14 @@
       <option name="MAIN_CLASS_NAME" value="InputsKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="NullSafteyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="NullSafteyKt" />
+      <option name="MAIN_CLASS_NAME" value="WhenKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -240,19 +253,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.NullSafteyKt" />
       <item itemvalue="Kotlin.InputsKt" />
       <item itemvalue="Kotlin.ConvertDataTypesKt" />
       <item itemvalue="Kotlin.Example1Kt" />
       <item itemvalue="Kotlin.IfStatementKt" />
+      <item itemvalue="Kotlin.WhenKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.WhenKt" />
         <item itemvalue="Kotlin.IfStatementKt" />
         <item itemvalue="Kotlin.Example1Kt" />
         <item itemvalue="Kotlin.ConvertDataTypesKt" />
         <item itemvalue="Kotlin.InputsKt" />
-        <item itemvalue="Kotlin.NullSafteyKt" />
       </list>
     </recent_temporary>
   </component>
@@ -274,14 +287,15 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32843137" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45424837" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23366013" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.44117647" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4248366" />
@@ -292,7 +306,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32843137" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -300,7 +313,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -489,8 +502,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IfStatement.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/When.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
